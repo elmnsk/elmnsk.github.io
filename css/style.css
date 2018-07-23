@@ -1,3 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html,body{
+    height: 100%;
+}
 body {
-    background: #000000;
+    margin-top: 20px;
+    background: #000;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    margin: 0 auto 40px;
+    background: #2B2437;
+    background-image: -ms-radial-gradient(center, ellipse farthest-corner, #4F486E 0%, #39344F 70%, #37324C 100%);
+
+    background-image: -moz-radial-gradient(center, ellipse farthest-corner, #4F486E 0%, #39344F 70%, #37324C 100%);
+
+    background-image: -o-radial-gradient(center, ellipse farthest-corner, #4F486E 0%, #39344F 70%, #37324C 100%);
+
+    background-image: -webkit-gradient(radial, center center, 0, center center, 286, color-stop(0, #4F486E), color-stop(70, #39344F), color-stop(100, #37324C));
+
+    background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #4F486E 0%, #39344F 70%, #37324C 100%);
+
+    background-image: radial-gradient(ellipse farthest-corner at center, #4F486E 0%, #39344F 70%, #37324C 100%);
 }
